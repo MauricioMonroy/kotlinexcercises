@@ -1,3 +1,5 @@
+package loops
+
 fun main() {
     print("Enter a number: ")
     val n = readln().toInt()  // Reads the input and converts it to Int

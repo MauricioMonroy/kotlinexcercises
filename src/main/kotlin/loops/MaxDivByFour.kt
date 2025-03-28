@@ -1,3 +1,5 @@
+package loops
+
 fun main() {
     val n = readln().toInt() // Read number of elements to enter
     val numbers = mutableListOf<Int>()
