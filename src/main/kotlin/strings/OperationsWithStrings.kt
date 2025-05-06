@@ -11,6 +11,6 @@ fun main() {
     // String interpolation
     val name = "Mauricio"
     val age = 30
-    val greeting = "Hello, my name is $name and I am $age years old."
-    println(greeting) // Hello, my name is Mauricio and I am 30 years old.
+    val greeting = "Hello, my name is $name, and I am $age years old."
+    println(greeting) // Hello, my name is Mauricio, and I am 30 years old.
 }
