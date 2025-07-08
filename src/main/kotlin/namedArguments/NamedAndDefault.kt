@@ -1,3 +1,5 @@
+package namedArguments
+
 // The default values for function parameters may or may not be constant. 
 // They can also be another named argument or a function.
 fun sum2(a: Int, b: Int = a) = a + b
