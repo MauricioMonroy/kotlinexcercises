@@ -1,3 +1,5 @@
+package namedArguments
+
 fun calcEndDayAmount(startAmount: Int = 0, ticketPrice: Int, soldTickets: Int) =
         startAmount + ticketPrice * soldTickets
 
