@@ -1,3 +1,5 @@
+package namedArguments
+
 // We can declare standard variables and pass them on,
 // but sometimes you have to work with literals, not variables. 
 // Named arguments can make our code more readable.
