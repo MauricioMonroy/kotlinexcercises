@@ -1,3 +1,5 @@
+package namedArguments
+
 // The greetNeo() function returns "Hello, Mr. Anderson" with correct arguments
 // Otherwise returns "MAtrix error"
 fun greetUser(
