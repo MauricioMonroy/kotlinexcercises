@@ -1,4 +1,4 @@
-package collections
+package collections.list
 
 fun main() {
     val participants = listOf(

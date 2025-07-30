@@ -1,4 +1,4 @@
-package collections
+package collections.list
 
 fun sortIntegers(integers: List<Int>): List<Int> {
     return integers.sorted()

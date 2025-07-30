@@ -1,4 +1,4 @@
-package collections
+package collections.list
 
 fun main() {
     // Checking the size on a List, a Set, and a Map

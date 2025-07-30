@@ -1,4 +1,4 @@
-package collections
+package collections.list
 
 fun main() {
     val staff = emptyList<String>() // Create an empty list of strings

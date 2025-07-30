@@ -1,4 +1,4 @@
-package collections
+package collections.list
 
 // List are used to store a collection of items in a specific order.
 // In this example, we create a class `Cars` that holds a list of `Car` objects.

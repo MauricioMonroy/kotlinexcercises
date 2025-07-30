@@ -1,4 +1,4 @@
-package collections
+package collections.list
 
 fun daysOfWeek(): List<String> {
     return listOf(
