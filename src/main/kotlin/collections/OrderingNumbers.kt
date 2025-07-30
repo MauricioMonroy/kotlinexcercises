@@ -1,4 +1,4 @@
-package collections.list
+package collections
 
 fun main() {
     println("Enter the number of elements:")

@@ -1,4 +1,4 @@
-package collections.list
+package collections
 
 fun solution(strings: List<String>, str: String): Int {
     // Count the number of occurrences of str in strings

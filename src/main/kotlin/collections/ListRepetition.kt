@@ -1,4 +1,4 @@
-package collections.list
+package collections
 
 fun solving(names: List<String>): Int {
     for (i in 1 until names.size step 2) {

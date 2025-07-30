@@ -1,4 +1,4 @@
-package collections.list
+package collections
 
 fun shelf(products: List<String>, product: String) {
     val index = products.indexOf(product)
