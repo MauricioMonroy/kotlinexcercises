@@ -1,12 +1,9 @@
 package collections.map
 
 fun bill(priceList: Map<String, Int>, shoppingList: MutableList<String>): Int {
-    for (item in shoppingList) {
-        if (priceList[item] == null) {
-            return 0
-        }
-    }
-    return shoppingList.sumOf { priceList[it] ?: 0 }
+    val validItems = shoppingList.filter { priceList.containsKey(it) }
+    if (validItems.isEmpty()) return 0
+    return validItems.sumOf { priceList[it] ?: 0 }
 }
 
 fun main() {
