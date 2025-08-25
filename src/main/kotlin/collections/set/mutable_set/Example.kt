@@ -4,7 +4,7 @@ val groceries = mutableSetOf<String>("milk", "bread", "eggs")
 fun main() {
     groceries.add("cheese")
     groceries.add("bread") // This will not add a duplicate
-    // The advantage in comparision with mutableList is that it does not allow duplicates
+    // The advantage in comparison with mutableList is that it does not allow duplicates
     println(groceries) // Output: [milk, bread, eggs, cheese]
 
     groceries.remove("eggs")
