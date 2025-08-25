@@ -1,16 +1,16 @@
 package functions.functions_references
 
-class Person(val name: String, val lastName: String, val age: Int) {
-    fun printPersonInfo(): String {
-        return("Full name: $name $lastName | Age: $age")
+class Persona(val name: String, val lastName: String, val age: Int) {
+    fun printPersonaInfo(): String {
+        return ("Full name: $name $lastName | Age: $age")
     }
 }
 
 fun main() {
-    val person = Person("Dmitry", "Max", 18)
-    val personFun: () -> String = person::printPersonInfo
+    val persona = Persona("Dmitry", "Max", 18)
+    val personaFun: () -> String = persona::printPersonaInfo
     // We can print normal function or use the especial function invoke
-    println(personFun()) // Output: Full name: Dmitry Max | Age: 18
-    println(personFun.invoke()) // Output: Full name: Dmitry Max | Age: 18
+    println(personaFun()) // Output: Full name: Dmitry Max | Age: 18
+    println(personaFun.invoke()) // Output: Full name: Dmitry Max | Age: 18
     // Output: Full name: Dmitry Max | Age: 18
 }

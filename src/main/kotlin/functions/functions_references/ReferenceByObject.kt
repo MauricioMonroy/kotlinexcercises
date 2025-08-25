@@ -6,7 +6,7 @@ package functions.functions_references
 // In this example, we use a function reference to refer to the `indexOf` method of the `String` class.
 // The `indexOf` method returns the index of the first occurrence of a specified substring within
 // the string, or -1 if the substring is not found.
-val whatsGoingOnText: String = "What's going on here?"
+const val whatsGoingOnText: String = "What's going on here?"
 val indexWithinWhatsGoingOnText: (String, Int, Boolean) -> Int = whatsGoingOnText::indexOf
 
 // Result of applying it to different arguments
