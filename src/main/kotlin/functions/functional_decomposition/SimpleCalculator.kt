@@ -1,4 +1,4 @@
-package functions.functionalDecomposition
+package functions.functional_decomposition
 
 fun subtractTwoNumbers(a: Long, b: Long): String {
     return if (b == 0L) {

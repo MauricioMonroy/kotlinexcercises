@@ -1,4 +1,4 @@
-package functions.namedArguments
+package functions.named_arguments
 
 fun main() {
     println("Enter the car features: age, kilometers, maximum speed, automatic (true/false) separated by spaces:")

@@ -1,4 +1,4 @@
-package functions.namedArguments
+package functions.named_arguments
 
 // We can declare standard variables and pass them on,
 // but sometimes you have to work with literals, not variables. 

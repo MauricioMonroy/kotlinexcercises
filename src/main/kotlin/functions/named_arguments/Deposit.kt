@@ -1,4 +1,4 @@
-package functions.namedArguments
+package functions.named_arguments
 
 import kotlin.math.pow
 

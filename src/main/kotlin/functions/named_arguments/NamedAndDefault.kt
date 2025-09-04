@@ -1,4 +1,4 @@
-package functions.namedArguments
+package functions.named_arguments
 
 // The default values for function parameters may or may not be constant. 
 // They can also be another named argument or a function.

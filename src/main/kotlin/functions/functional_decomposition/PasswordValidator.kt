@@ -1,4 +1,4 @@
-package functions.functionalDecomposition
+package functions.functional_decomposition
 
 fun validatePassword(password: String): Boolean {
     var validationResult = false

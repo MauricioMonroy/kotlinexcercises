@@ -1,4 +1,4 @@
-package functions.namedArguments
+package functions.named_arguments
 
 // The greetNeo() function returns "Hello, Mr. Anderson" with correct arguments
 // Otherwise returns "MAtrix error"

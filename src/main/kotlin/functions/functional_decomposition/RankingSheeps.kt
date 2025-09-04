@@ -1,4 +1,4 @@
-package functions.functionalDecomposition
+package functions.functional_decomposition
 
 fun calculateRank(weight: Int): Int {
     return when {

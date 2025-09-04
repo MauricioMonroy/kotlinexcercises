@@ -1,4 +1,4 @@
-package functions.namedArguments
+package functions.named_arguments
 
 fun f(a: Int, b: Int, c: Int) = a + b + c
 

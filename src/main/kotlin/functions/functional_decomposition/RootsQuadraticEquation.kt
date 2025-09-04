@@ -1,4 +1,4 @@
-package functions.functionalDecomposition
+package functions.functional_decomposition
 
 import kotlin.math.pow
 

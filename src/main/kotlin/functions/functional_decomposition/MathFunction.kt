@@ -1,4 +1,4 @@
-package functions.functionalDecomposition
+package functions.functional_decomposition
 
 fun f(x: Double): Double {
     // call your implemented functions here

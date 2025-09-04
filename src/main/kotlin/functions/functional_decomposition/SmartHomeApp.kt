@@ -1,4 +1,4 @@
-package functions.functionalDecomposition
+package functions.functional_decomposition
 
 fun accessSmartHome() {
     val password = "31415926538"

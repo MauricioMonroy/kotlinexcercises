@@ -1,4 +1,4 @@
-package functions.functionalDecomposition
+package functions.functional_decomposition
 
 fun createFullName(firstName: String, lastName: String): String {
     return "$firstName $lastName"
