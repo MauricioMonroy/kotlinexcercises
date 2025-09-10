@@ -1,6 +1,7 @@
 package collections.list
 
 fun main() {
+    println("Enter the number of values followed by the values themselves separated by new lines:")
     val numberOfValues = readln().toInt()
     val values = mutableListOf<Int>()
     repeat(numberOfValues) {

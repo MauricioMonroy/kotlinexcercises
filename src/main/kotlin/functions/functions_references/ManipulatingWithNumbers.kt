@@ -14,6 +14,7 @@ fun changeNumber(changeFunction: (Int) -> Int, number: Int) {
 }
 
 fun main() {
+    println("Enter numbers separated by space:")
     val numbers = readln().split(' ').map { it.toInt() }.toList()
     var numberFun: (Int) -> Int
     for (number in numbers) {
