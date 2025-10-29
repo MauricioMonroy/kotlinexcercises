@@ -1,4 +1,4 @@
-package lambdaExpressions
+package lambda_expressions
 
 // Syntactic sugar in Kotlin allows for more concise and readable code.
 // In these examples, we will see how to use lambda expressions with syntactic sugar.

@@ -1,4 +1,4 @@
-package whenExpression
+package when_expression
 
 fun main() {
     // This program uses a when expression to determine the Hogwarts house based on the first letter of the name

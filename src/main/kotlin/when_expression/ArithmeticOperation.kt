@@ -1,4 +1,4 @@
-package whenExpression
+package when_expression
 
 fun main() {
     println("Enter the operation (e.g., 25 * 8 or 25*8):")

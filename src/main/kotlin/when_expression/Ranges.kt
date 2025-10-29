@@ -1,4 +1,4 @@
-package whenExpression
+package when_expression
 
 fun main() {
     // This program uses a when expression to check if a number is within certain ranges

@@ -1,4 +1,4 @@
-package lambdaExpressions
+package lambda_expressions
 
 // This lambda expression calculates the value of a polynomial a * x^2 + b * x + c
 // where a, b, and c are the coefficients of the polynomial and x is the variable.

@@ -1,4 +1,4 @@
-package whenExpression
+package when_expression
 
 fun main(){
     // This program uses conditional expressions to determine the relationship between three integers

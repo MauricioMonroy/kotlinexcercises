@@ -1,4 +1,4 @@
-package defaultArguments
+package default_arguments
 
 fun greetings(name: String = "secret user"): String {
     return "Hello, $name!"

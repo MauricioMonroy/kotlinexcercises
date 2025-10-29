@@ -1,4 +1,4 @@
-package whenExpression
+package when_expression
 
 fun main(){
     // This program use a when expression without arguments to evaluate a number

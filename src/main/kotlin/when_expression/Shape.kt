@@ -1,4 +1,4 @@
-package whenExpression
+package when_expression
 
 fun main(args: Array<String>) {
     val input = if (args.isNotEmpty()) args[0].toInt() else readln().toInt()

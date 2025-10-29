@@ -1,4 +1,4 @@
-package whenExpression
+package when_expression
 
 fun main() {
     println(when (readln().toInt()) {

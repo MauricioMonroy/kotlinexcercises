@@ -1,4 +1,4 @@
-package lambdaExpressions
+package lambda_expressions
 
 fun main() {
     val lambda: (Long, Long) -> Long = { a, b ->

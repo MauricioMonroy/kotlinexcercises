@@ -1,4 +1,4 @@
-package lambdaExpressions
+package lambda_expressions
 
 // Where there a single parameter in a lambda expression, we can omit the parameter name and use 'it' instead.
 // val originalText = "I don't know... what to say..."

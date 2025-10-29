@@ -1,4 +1,4 @@
-package defaultArguments
+package default_arguments
 
 fun polynomial(x: Int, c: Int, b: Int, a: Int): Int {
     return if (a == 0 && b == 0) {

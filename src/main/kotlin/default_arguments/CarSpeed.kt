@@ -1,4 +1,4 @@
-package defaultArguments
+package default_arguments
 
 fun checkSpeed(speed: Int, limit: Int = 60) {
     val subtracted = speed - limit

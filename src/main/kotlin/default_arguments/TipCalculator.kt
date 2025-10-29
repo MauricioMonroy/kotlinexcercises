@@ -1,4 +1,4 @@
-package defaultArguments
+package default_arguments
 
 fun tip(bill: Int, percentage: Int = 10): Int {
     return (bill * percentage) / 100

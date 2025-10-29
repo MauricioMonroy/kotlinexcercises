@@ -1,4 +1,4 @@
-package whenExpression
+package when_expression
 
 fun seasonOfTheYear(month: Int): String {
     return when (month) {

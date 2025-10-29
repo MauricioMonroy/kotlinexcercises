@@ -1,4 +1,4 @@
-package lambdaExpressions
+package lambda_expressions
 
 // This is a simple example of a lambda expression in Kotlin
 // Structure: { arguments -> body }
