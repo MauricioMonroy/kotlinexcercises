@@ -1,5 +1,11 @@
 package fright_night_coding
 
+/* This program finds the shortest path in a maze from a starting point 'P' to a goal point 'G'.
+ * The maze is represented as a grid of characters, where '#' represents walls and '.' represents open paths.
+ * The program uses breadth-first search (BFS) to explore the maze and find the shortest path.
+ * It outputs the sequence of moves (U, D, L, R) to reach the goal from the start.
+ */
+
 fun main() {
     val maze = mutableListOf<String>()
     for (i in 0 until 50) {

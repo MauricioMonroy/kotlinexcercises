@@ -2,6 +2,13 @@ package fright_night_coding
 
 import kotlin.math.*
 
+/*
+* This program reads multiple lines of input, each containing four integers representing a 4D vector.
+* It calculates the total Euclidean distance between each pair of consecutive vectors, rounding up each distance to the nearest integer,
+* and then sums these rounded distances. The final sum is printed as output.
+* If the input is empty or contains invalid data, the program outputs 0 or "Invalid input" respectively.
+*/
+
 fun main() {
     val lines = generateSequence { readlnOrNull()?.takeIf { it.isNotBlank() } }.toList()
 
