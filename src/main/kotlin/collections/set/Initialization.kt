@@ -3,7 +3,7 @@ package collections.set
 val humanLanguages = setOf<String>("English", "Spanish", "French") // immutable set of human languages
 val languages = setOf("Java", "Kotlin", "Python") // immutable set of programming languages
 val numbers = emptySet<Int>() // empty immutable set of integers
-val letters = setOf<Char>('A', 'B', 'C') // immutable set of characters
+val letters = setOf<Char>('A', 'B', 'C') // immutable set of types_and_data_structures.characters
 val set = buildSet<Char> {
     add('D')
     addAll(letters)

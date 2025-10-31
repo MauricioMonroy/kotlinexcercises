@@ -1,7 +1,7 @@
 package collections.list
 
 fun main() {
-    val staff = emptyList<String>() // Create an empty list of strings
+    val staff = emptyList<String>() // Create an empty list of types_and_data_structures.strings
     println(staff) // Output: []
 
     // Creating a list calling a builder function

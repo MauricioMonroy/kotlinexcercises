@@ -11,7 +11,7 @@ fun stringToMap(first: String, second: String, third: String): Map<String, Int> 
 fun main() {
     val myMap = readln().split(" ")
     if (myMap.size < 3) {
-        println("Please provide at least three strings.")
+        println("Please provide at least three types_and_data_structures.strings.")
         return
     }
     val map = stringToMap(myMap[0], myMap[1], myMap[2])

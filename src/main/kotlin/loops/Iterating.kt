@@ -44,7 +44,7 @@ fun main() {
     println("\nIterating numbers from 1 to 5 (excluding upper limit):")
     iterateExcludingUpperLimit()
 
-    println("\nIterating characters from 'a' to 'f':")
+    println("\nIterating types_and_data_structures.characters from 'a' to 'f':")
     iterateCharacters()
 
     println("\nIterating numbers from 1 to 8 with step 2:")

@@ -34,7 +34,7 @@ fun main() {
 
     // Iterating through the mutable set using count
     val countPlaces = placesOfWorld.count { it.length > 5 }
-    println("Count of places with more than 5 characters: $countPlaces")
+    println("Count of places with more than 5 types_and_data_structures.characters: $countPlaces")
 
     // Outputs:
     // Paris
@@ -51,6 +51,6 @@ fun main() {
     // Index: 2, Place: Tokyo
     // [PARIS, NEW YORK, TOKYO]
     // [Paris]
-    // Count of places with more than 5 characters: 1
+    // Count of places with more than 5 types_and_data_structures.characters: 1
     // Note: The output may vary based on the initial contents of the mutable set.
 }
