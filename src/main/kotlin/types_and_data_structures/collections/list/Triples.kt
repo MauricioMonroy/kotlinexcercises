@@ -1,0 +1,17 @@
+package types_and_data_structures.collections.list
+
+fun main() {
+    println("Enter the number of values followed by the values themselves separated by new lines:")
+    val numberOfValues = readln().toInt()
+    val values = mutableListOf<Int>()
+    repeat(numberOfValues) {
+        values.add(readln().toInt())
+    }
+    var tripleCount = 0
+    for (i in 0..values.size - 3) {
+        if (values[i + 1] == values[i] + 1 && values[i + 2] == values[i] + 2) {
+            tripleCount++
+        }
+    }
+    println(tripleCount)
+}

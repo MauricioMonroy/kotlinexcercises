@@ -30,5 +30,5 @@ fun main() {
 // We also use a function reference `::isEven` to pass the `isEven` function.
 // The output will display the odd and even numbers from the list.
 // This demonstrates how function references can be used to pass functions as parameters in a concise way.
-// Function references can also be used with higher-order functions, such as `map`, `filter`, and `forEach`, to apply operations on collections.
+// Function references can also be used with higher-order functions, such as `map`, `filter`, and `forEach`, to apply operations on types_and_data_structures.collections.
 // They provide a clean and readable way to refer to functions without invoking them, making the code more maintainable and expressive.
