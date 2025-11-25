@@ -1,4 +1,4 @@
-package arrays.string_arrays
+package types_and_data_structures.arrays.string_arrays
 
 fun main() {
     // Initialization for any type of array
@@ -49,7 +49,7 @@ fun main() {
     println(strings.lastIndexOf("array")) // Output: 0
     println(strings.lastIndexOf("missing")) // Output: -1
 
-    // Comparing arrays
+    // Comparing types_and_data_structures.arrays
     val anotherArray = arrayOf("array", "of", "strings")
     println(strings == anotherArray) // Output: false (reference comparison)
     println(strings === anotherArray) // Output: false (reference comparison)

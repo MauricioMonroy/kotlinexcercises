@@ -1,4 +1,4 @@
-package arrays
+package types_and_data_structures.arrays
 
 fun main() {
     val numbers = IntArray(3) // numbers: 0, 0, 0

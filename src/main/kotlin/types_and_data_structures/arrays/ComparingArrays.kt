@@ -1,4 +1,4 @@
-package arrays
+package types_and_data_structures.arrays
 
 fun main() {
     val simpleArray = intArrayOf(1, 2, 3)

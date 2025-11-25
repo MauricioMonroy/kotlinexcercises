@@ -1,4 +1,4 @@
-package arrays
+package types_and_data_structures.arrays
 
 fun main() {
     val guarismos = readln().split(" ").map { it.toInt() }.toIntArray()
