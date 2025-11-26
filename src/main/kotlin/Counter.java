@@ -5,3 +5,6 @@ class Main {
         }
     }
 }
+
+// The idea of this snippet is to find the value of 'i' during each iteration of the loop.
+// You can set a breakpoint inside the loop to inspect how 'i' changes with each increment and print statement.
