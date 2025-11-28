@@ -1,5 +1,6 @@
+package exceptions;
+
 import java.lang.Math;
-import java.lang.Integer;
 
 public class Triangle_area {
     public static void main(String[] args) {
